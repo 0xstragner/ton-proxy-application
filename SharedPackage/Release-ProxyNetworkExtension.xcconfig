@@ -1,0 +1,9 @@
+//
+//  Created by Adam Stragner
+//
+
+#include "Configuration-Release.xcconfig"
+
+CODE_SIGN_ENTITLEMENTS = ProxyNetworkExtension/Supporting/Entitlements/Debug.entitlements
+PRODUCT_BUNDLE_IDENTIFIER = com.stragner.tonproxy.network-extension
+PRODUCT_NAME = ProxyNetworkExtension
