@@ -2,11 +2,9 @@
 
 The iOS application that utilizes [0xstragner/ton-proxy-swift](https://github.com/0xstragner/ton-proxy-swift)
 
-- WKWebView
-- NetworkExtension
-
-<img width="735" alt="image" src="https://user-images.githubusercontent.com/9332353/202722921-a2f7a92b-c5d8-496d-aaf2-446f01fad0ae.png">
-<img width="735" alt="image" src="https://user-images.githubusercontent.com/9332353/202722921-a2f7a92b-c5d8-496d-aaf2-446f01fad0ae.png">
+| NetworkExtension                                                                                                                                                 | WKWebView                                                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="242" alt="image" src="https://github.com/0xstragner/ton-proxy-application/blob/15419c467f14c4049e658ac02826a5527616370f/Screenshots/0.PNG?raw=true"> | <img width="242" alt="image" src="https://github.com/0xstragner/ton-proxy-application/blob/15419c467f14c4049e658ac02826a5527616370f/Screenshots/1.PNG?raw=true"> |
 
 ## Run
 
