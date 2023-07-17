@@ -32,6 +32,9 @@ extension WindowSceneDelegate: UIWindowSceneDelegate {
     }
 
     func sceneWillEnterForeground(_ scene: UIScene) {
-        NetworkManager.shared.update()
+        // Await installation
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+            NetworkManager.shared.update()
+        })
     }
 }
