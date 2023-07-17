@@ -11,7 +11,11 @@ class WebViewController: UIViewController {
 
     deinit {
         Task.detached(operation: {
-            try? await TonutilsProxy.shared.stop()
+            do {
+                try await TonutilsProxy.shared.stop()
+            } catch {
+                print("\(error)")
+            }
         })
     }
 
@@ -24,21 +28,25 @@ class WebViewController: UIViewController {
 
         let port = UInt16(1234)
         Task.detached(operation: { @MainActor [weak self] in
-            let _ = try? await TonutilsProxy.shared.start(port)
-            self?.load(with: port)
+            do {
+                let parameters = try await TonutilsProxy.shared.start(port)
+                self?.load(with: parameters.host, port: parameters.port)
+            } catch {
+                print("\(error)")
+            }
         })
     }
 
     // MARK: Private
 
-    private func load(with port: UInt16) {
+    private func load(with address: String, port: UInt16) {
         guard let url = URL(string: "http://foundation.ton")
         else {
             return
         }
 
         let configuration = WKWebViewConfiguration()
-        configuration.use(.init(port: port))
+        configuration.setURLSchemeHandler(TonutilsURLSchemeHandler(address: address, port: port))
 
         let webView = WKWebView(frame: view.bounds, configuration: configuration)
         view.addSubview(webView)

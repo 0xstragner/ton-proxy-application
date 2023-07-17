@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7872A2C2A643BF400EBD8D1 /* TonutilsProxy in Frameworks */ = {isa = PBXBuildFile; productRef = C7872A2B2A643BF400EBD8D1 /* TonutilsProxy */; };
 		C7872A332A64429D00EBD8D1 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7872A322A64429D00EBD8D1 /* NetworkExtension.framework */; };
 		C7872A3C2A64429D00EBD8D1 /* ProxyNetworkExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C7872A312A64429D00EBD8D1 /* ProxyNetworkExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C7872A562A6445CF00EBD8D1 /* TonutilsProxy in Frameworks */ = {isa = PBXBuildFile; productRef = C7872A552A6445CF00EBD8D1 /* TonutilsProxy */; };
 		C7872A582A6445E600EBD8D1 /* TunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7872A572A6445E600EBD8D1 /* TunnelProvider.swift */; };
 		C7872A5F2A64562B00EBD8D1 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7872A5E2A64562B00EBD8D1 /* DashboardViewController.swift */; };
 		C7872A612A64564300EBD8D1 /* DashboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7872A602A64564300EBD8D1 /* DashboardView.xib */; };
 		C7872A652A6473ED00EBD8D1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7872A642A6473ED00EBD8D1 /* NetworkManager.swift */; };
-		C7872A682A648FD700EBD8D1 /* TonutilsProxy in Frameworks */ = {isa = PBXBuildFile; productRef = C7872A672A648FD700EBD8D1 /* TonutilsProxy */; };
 		C7872A6B2A64905700EBD8D1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7872A6A2A64905700EBD8D1 /* WebViewController.swift */; };
-		C7872A6F2A64926C00EBD8D1 /* WebViewSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7872A6E2A64926C00EBD8D1 /* WebViewSchemeHandler.swift */; };
+		C7872A732A6564FE00EBD8D1 /* TonutilsProxy in Frameworks */ = {isa = PBXBuildFile; productRef = C7872A722A6564FE00EBD8D1 /* TonutilsProxy */; };
+		C7872A752A65650700EBD8D1 /* TonutilsProxy in Frameworks */ = {isa = PBXBuildFile; productRef = C7872A742A65650700EBD8D1 /* TonutilsProxy */; };
 		C7C39B492A6404B70087E21A /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C39B482A6404B70087E21A /* ApplicationDelegate.swift */; };
 		C7C39B4B2A6404B70087E21A /* WindowSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C39B4A2A6404B70087E21A /* WindowSceneDelegate.swift */; };
 		C7C39B552A6404B80087E21A /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C39B532A6404B80087E21A /* Launch.storyboard */; };
@@ -66,7 +64,6 @@
 		C7872A602A64564300EBD8D1 /* DashboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardView.xib; sourceTree = "<group>"; };
 		C7872A642A6473ED00EBD8D1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C7872A6A2A64905700EBD8D1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		C7872A6E2A64926C00EBD8D1 /* WebViewSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewSchemeHandler.swift; sourceTree = "<group>"; };
 		C7C39B452A6404B70087E21A /* Tonproxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tonproxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C39B482A6404B70087E21A /* ApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegate.swift; sourceTree = "<group>"; };
 		C7C39B4A2A6404B70087E21A /* WindowSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7872A332A64429D00EBD8D1 /* NetworkExtension.framework in Frameworks */,
-				C7872A562A6445CF00EBD8D1 /* TonutilsProxy in Frameworks */,
+				C7872A752A65650700EBD8D1 /* TonutilsProxy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7872A2C2A643BF400EBD8D1 /* TonutilsProxy in Frameworks */,
-				C7872A682A648FD700EBD8D1 /* TonutilsProxy in Frameworks */,
+				C7872A732A6564FE00EBD8D1 /* TonutilsProxy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				C7872A6A2A64905700EBD8D1 /* WebViewController.swift */,
-				C7872A6E2A64926C00EBD8D1 /* WebViewSchemeHandler.swift */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -253,7 +248,7 @@
 			);
 			name = ProxyNetworkExtension;
 			packageProductDependencies = (
-				C7872A552A6445CF00EBD8D1 /* TonutilsProxy */,
+				C7872A742A65650700EBD8D1 /* TonutilsProxy */,
 			);
 			productName = ProxyNetworkExtension;
 			productReference = C7872A312A64429D00EBD8D1 /* ProxyNetworkExtension.appex */;
@@ -275,8 +270,7 @@
 			);
 			name = iOS;
 			packageProductDependencies = (
-				C7872A2B2A643BF400EBD8D1 /* TonutilsProxy */,
-				C7872A672A648FD700EBD8D1 /* TonutilsProxy */,
+				C7872A722A6564FE00EBD8D1 /* TonutilsProxy */,
 			);
 			productName = Darknet;
 			productReference = C7C39B452A6404B70087E21A /* Tonproxy.app */;
@@ -312,7 +306,7 @@
 			);
 			mainGroup = C7C39B3C2A6404B70087E21A;
 			packageReferences = (
-				C7872A662A648FD700EBD8D1 /* XCRemoteSwiftPackageReference "ton-proxy-swift" */,
+				C7872A712A6564FE00EBD8D1 /* XCRemoteSwiftPackageReference "ton-proxy-swift" */,
 			);
 			productRefGroup = C7C39B462A6404B70087E21A /* Products */;
 			projectDirPath = "";
@@ -358,7 +352,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7C39B492A6404B70087E21A /* ApplicationDelegate.swift in Sources */,
-				C7872A6F2A64926C00EBD8D1 /* WebViewSchemeHandler.swift in Sources */,
 				C7872A6B2A64905700EBD8D1 /* WebViewController.swift in Sources */,
 				C7872A5F2A64562B00EBD8D1 /* DashboardViewController.swift in Sources */,
 				C7872A652A6473ED00EBD8D1 /* NetworkManager.swift in Sources */,
@@ -628,28 +621,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C7872A662A648FD700EBD8D1 /* XCRemoteSwiftPackageReference "ton-proxy-swift" */ = {
+		C7872A712A6564FE00EBD8D1 /* XCRemoteSwiftPackageReference "ton-proxy-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/0xstragner/ton-proxy-swift";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.0;
+				minimumVersion = 0.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C7872A2B2A643BF400EBD8D1 /* TonutilsProxy */ = {
+		C7872A722A6564FE00EBD8D1 /* TonutilsProxy */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = C7872A712A6564FE00EBD8D1 /* XCRemoteSwiftPackageReference "ton-proxy-swift" */;
 			productName = TonutilsProxy;
 		};
-		C7872A552A6445CF00EBD8D1 /* TonutilsProxy */ = {
+		C7872A742A65650700EBD8D1 /* TonutilsProxy */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = TonutilsProxy;
-		};
-		C7872A672A648FD700EBD8D1 /* TonutilsProxy */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C7872A662A648FD700EBD8D1 /* XCRemoteSwiftPackageReference "ton-proxy-swift" */;
+			package = C7872A712A6564FE00EBD8D1 /* XCRemoteSwiftPackageReference "ton-proxy-swift" */;
 			productName = TonutilsProxy;
 		};
 /* End XCSwiftPackageProductDependency section */

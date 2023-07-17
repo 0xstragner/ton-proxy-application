@@ -16,7 +16,6 @@ extension ApplicationDelegate: UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        WKWebView.swizzle()
         return true
     }
 
