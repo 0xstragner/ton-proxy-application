@@ -626,7 +626,7 @@
 			repositoryURL = "https://github.com/0xstragner/ton-proxy-swift";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.3.0;
+				minimumVersion = 0.3.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
